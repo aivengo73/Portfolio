@@ -1,0 +1,192 @@
+/*!!   Общие настройки     */
+
+@font-face {
+	src: url("fonts/Roboto-Regular.ttf") format("ttf");
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	src: local(""), url("fonts/Roboto-Bold.ttf") format("ttf");
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+}
+
+input,
+h1,
+h2,
+h3,
+p,
+a {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::after {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	background-color: #050404;
+}
+
+.container {
+	width: 1180px;
+	margin: auto;
+}
+
+.header {
+	margin-bottom: 80px;
+}
+
+.header__logo-img {
+	width: 108px;
+	margin-right: 110px;
+	margin-top: 10px;
+	margin-bottom: -20px;
+}
+
+.header__navbar {
+	display: inline;
+	width: 255px;
+	height: 55px;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-list {
+	display: inline;
+	padding: 0;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	list-style: none;
+}
+
+.list-item {
+	display: inline;
+	margin-right: 38px;
+}
+
+.list-item:last-child {
+	margin-right: 63px;
+}
+
+.item-link {
+	display: inline-block;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+
+.yellow {
+	color: #ffb822;
+}
+
+.header__search-input {
+	display: inline;
+	height: 55px;
+	margin-right: 0;
+	color: #fff;
+}
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #fff;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #fff;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #fff;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #fff;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+input {
+	background: transparent;
+	background-image: url("../image/vector-search.png");
+	background-repeat: no-repeat;
+	background-position: 230px 50%;
+	outline: none;
+	border-radius: 10px;
+	padding-left: 17px;
+	font-size: 22px;
+	border: 4px solid #925be0;
+}
+
+/* !!              секция freelance         */
+
+.freelance {
+	margin-bottom: 86px;
+}
+
+.freelance__img {
+	width: 1180px;
+	height: 780px;
+	background-image: url("../image/kate_leo.jpg");
+	background-size: cover;
+	border-radius: 0 151px;
+}
+
+.freelance__img::after {
+	content: url("../image/layers.jpg"), url("../image/shadow_84.jpg");
+	position: absolute;
+	z-index: 2;
+	top: 159px;
+	opacity: 0.2;
+}
+
+.freelance__title {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 100px;
+	line-height: 100px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #ffb822;
+	text-align: center;
+	padding-top: 324px;
+	margin-bottom: 38px;
+}
+
+.freelance__text {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+}
