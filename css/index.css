@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+.navbar-list {
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+input {
+	border: none;
+}
+
+.freelance__title {
+	font-weight: bold;
+
+}
+
+.freelance__text {
+	font-weight: 600;
+}
